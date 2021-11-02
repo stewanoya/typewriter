@@ -1,4 +1,4 @@
-const sentence = "hello there from lighthouse labs";
+const sentence = "hello there from lighthouse labs\n";
 
 let typewriter = () => {
   let timer = 0;
@@ -8,9 +8,6 @@ let typewriter = () => {
     }, timer);
     timer += 50;
   }
-  setTimeout(() => {
-    console.log("\n");
-  }, 2000);
 };
 
 typewriter(sentence);
